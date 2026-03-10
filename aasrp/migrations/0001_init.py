@@ -233,8 +233,7 @@ class Migration(migrations.Migration):
             options={
                 "verbose_name": "SRP link",
                 "verbose_name_plural": "SRP links",
-                "default_permissions": (),
-            },
+           },
         ),
         migrations.CreateModel(
             name="UserSetting",
@@ -385,7 +384,6 @@ class Migration(migrations.Migration):
             options={
                 "verbose_name": "Request",
                 "verbose_name_plural": "Requests",
-                "default_permissions": (),
             },
         ),
         migrations.CreateModel(

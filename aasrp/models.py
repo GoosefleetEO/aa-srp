@@ -154,7 +154,6 @@ class SrpLink(models.Model):
         Meta options for the SrpLink model.
         """
 
-        default_permissions = ()
         verbose_name = _("SRP link")
         verbose_name_plural = _("SRP links")
 
@@ -390,7 +389,6 @@ class SrpRequest(models.Model):
         Meta options for the SrpRequest model.
         """
 
-        default_permissions = ()
         verbose_name = _("Request")
         verbose_name_plural = _("Requests")
 
